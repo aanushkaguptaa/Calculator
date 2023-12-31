@@ -1,0 +1,101 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #e5e4e4;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #a1a0a1;
+}
+.calBack{
+    display: flex;
+    background-color: #010100;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 2%;
+    border: 1px;
+    border-color: #010100;
+    border-radius: 10%;
+}
+.btn{
+    border: 1px;
+    border-color: blue;
+    border-radius: 100%;
+    background-color: #313131;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.operator{
+    border: 1px;
+    border-color: blue;
+    border-radius: 100%;
+    background-color: #f79806;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+#C{
+    border: 1px;
+    border-color: blue;
+    border-radius: 100%;
+    background-color: #a1a0a1;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+#equal {
+    border: 1px;
+    border-color: blue;
+    border-radius: 100%;
+    background-color: #a1a0a1;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+#backspace {
+    border: 1px;
+    border-color: blue;
+    border-radius: 100%;
+    background-color: #a1a0a1;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+.row{
+    margin: 4px 0px;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.display input{
+    border: 1px;
+    border-color: blue;
+    border-radius: 10%;
+    margin: 0;
+    width: 195px;
+    padding: 10px 5px;
+    background-color: transparent;
+    text-align: right;
+    font-size: x-large;    
+}
